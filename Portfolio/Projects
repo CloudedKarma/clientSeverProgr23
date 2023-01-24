@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kadin's Portfolio</title>
+    <meta charset="utf-8">
+</head>
 
+<body>
+	
+	<header>
+		<h1>Projects</h1>
+	</header>
+
+    <nav>
+        <p>
+            Home &nbsp; &#9475; &nbsp;
+            Projects &nbsp; &#9475; &nbsp;
+            About Me &nbsp; &#9475; &nbsp;
+            Services &nbsp; &#9475; &nbsp;
+            Portfolio &nbsp; &#9475; &nbsp;
+            Contact Me &nbsp; &#9475; &nbsp;
+
+        </p>
+    </nav>
+    <main>
+        <article>
+            <h2>Here are some projects that i have done</h2>
+        </article>
+    </main>
+	<p><a href="https://cloudedkarma.github.io/webdev23/Portfolio/" > Home </a></p>
+	<p><a href="https://cloudedkarma.github.io/webdev23/Portfolio/AboutMe" > About Me </a></p>
+	<p><a href="https://cloudedkarma.github.io/webdev23/Portfolio/ContactMe" > Contact Me </a></p>
+	<p><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Portfolio" > Portfolio </a></p>
+	<p><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Projects" > Projects </a></p>
+	<p><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Services" > Services </a></p>
+
+	<footer>
+		<p> &copy; Copyright 2023. All Rights Reserved.</p>
+	</footer>
+	
+</body>
+</html>
