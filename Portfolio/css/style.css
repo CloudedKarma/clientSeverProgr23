@@ -1,0 +1,99 @@
+/* Reset CSS styles */
+body, header, nav, main, footer, h1, div, img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Styles For body, img, header, nav, nav ul, nav li a, main, footer p, footer p a */
+body {
+    background-color: #D64045;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+header{
+    width: 25%;
+    float: left;
+}
+
+/* Style for navigation area */
+nav{
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
+}
+
+nav ul{
+    list-style-type: none;  /*No bullet on my list items*/
+    margin: 0;
+    text-align: right;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a{
+    display: block;
+    color: #4ECDC4;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none; /*remove underline from link*/
+}
+
+main{
+    clear: left;
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.2em;
+}
+
+/*Projects style*/
+#CPP{
+    width: 29%;
+    text-align: left;
+}
+#CPP li{
+    text-decoration: none; 
+}
+
+.external-link{
+    font-size: 1.35em;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* Contact style*/
+#contact{
+    text-align: center;
+}
+
+#contact a{
+    color: red;
+    text-decoration: none;
+}
+
+.map{
+    border: 8px solid #000;
+}
+
+/* Footer */
+footer p{
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
