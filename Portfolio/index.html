@@ -7,6 +7,7 @@ webdev23/Portfolio/index.html
 <html lang="en">
 <head>
 	<title>Kadin's Portfolio</title>
+	<meta name = "viewport" content = "width=device-width, initial-scale=1"/>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,7 +16,6 @@ webdev23/Portfolio/index.html
 	
 	<header>
 		<h1>Kadin Dengler</h1>
-		<img src="images/kadin_grad.jpg" alt = "Picture of me in a graduation gown"/>
 		<h1>Chocolate Coding Since 1911.</h1>
 	</header>
 
@@ -31,16 +31,40 @@ webdev23/Portfolio/index.html
     </nav>
 	<!--On this main It will show my greetings and it show what i answered for the questions-->
     <main>
-            <h2>Home Page</h2>
-	    <p>This is my home page</p>
-	    <p>There is a lot of things that i have done here</p>
-	    <!--How will you improve this website? Research other online portfolios for ideas on what you can add to enhance the look of your website.-->
-	    <p>One of the ways that i can improve the website is to add some css style to my page. Another way that i can improve my website is to make it responsive</p>
-	    <!--Write two or more sentences describing how to change the alignment for elements on an HTML webpage. -->
-	    <p>Text-align can align your text to the right, to the left, or you can center your text.</p>
-	    <p>With this you are able to align your text in the way you want. Another way to align your text is with the vertical-align it will vertical align your text.</p>
-	    <p>I did try to center an image. What i did is float-align center to center the picture in the page.</p>
-	    <p>The other way that you can do this is text.align center.</p>
+		<div class="mobile">
+			<p>Welcome to My Portfolio.</p>
+			<img src="images/kadin_grad.jpg" alt = "Picture of me in a graduation gown" class="round"/>
+			<h3>Here are some things about me</h3>
+			<p>Call me Today</p>
+			<div id = "contact">
+				<h4 class = "tel-link"><a href="tel:601554555">(601)-554-5555</a></h4>
+			</div>
+			
+            <h2>Here are some projects that i have done</h2>
+	    	<h3>Here are some of the C++ programs i have done resentaly.</h3>
+			<div id = "CPP">
+				<ul>
+					<li><a class ="external-link" href="CPPCode/pigLatinString.cpp">Pig Latin</a></li>
+					<li><a class ="external-link" href="CPPCode/TriangleOfStars.cpp">Triangle Of Stars</a></li>
+					<li><a class ="external-link" href="CPPCode/RockPaperScissors.cpp">Rock Paper Scissors</a></li>
+					<li><a class ="external-link" href="CPPCode/Average_Velocity.cpp">Average Velocity</a></li>
+					<li><a class ="external-link" href="CPPCode/AverageTestScore.cpp">Average Test Score</a></li>
+				</ul>
+			</div>
+		</div> 
+
+		<div class="tablet-desktop">
+			<h2>Home Page</h2>
+			<p>This is my home page</p>
+			<p>There is a lot of things that i have done here</p>
+			<!--How will you improve this website? Research other online portfolios for ideas on what you can add to enhance the look of your website.-->
+			<p>One of the ways that i can improve the website is to add some css style to my page. Another way that i can improve my website is to make it responsive</p>
+			<!--Write two or more sentences describing how to change the alignment for elements on an HTML webpage. -->
+			<p>Text-align can align your text to the right, to the left, or you can center your text.</p>
+			<p>With this you are able to align your text in the way you want. Another way to align your text is with the vertical-align it will vertical align your text.</p>
+			<p>I did try to center an image. What i did is float-align center to center the picture in the page.</p>
+			<p>The other way that you can do this is text.align center.</p>          
+		</div>
     </main>
 
 	<footer>

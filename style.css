@@ -1,0 +1,166 @@
+/*  
+Name: Kadin Dengler
+Filename: style.css
+Date: 1/23/2023
+*/
+/* Reset CSS styles */
+body, header, nav, main, footer, h1, div, img, ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Styles For body, img, header, nav, nav ul, nav li a, main, footer p, footer p a */
+body {
+    background-color: #000;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Styles rules for moble viewport */
+
+/* Style rule for header */
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px;
+}
+
+header img{
+    margin: 0 auto;
+}
+
+/* Style for navigation area */
+nav{
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul{
+    list-style-type: none;  /*No bullet on my list items*/
+    text-align: center;
+}
+
+nav li{
+    font-size: 1.5em;
+    font-family: "Francois One", sans-serif;
+    border-top: 1px solid #fff;
+}
+
+nav li:first-child{
+    border-top: none;
+}
+
+nav li a{
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none; /*remove underline from link*/
+}
+
+/* Show moble class, hide tablet-desktop class */
+.moble{
+    display: block;
+}
+
+.tablet-desktop{
+    display: none;
+}
+
+main{
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: "Roboto Slab", serif;
+}
+
+.tel-link{
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* .tel-link a{
+    text-decoration: none;
+    color: #fff;
+} */
+
+.hours{
+    margin-left: 10%;
+}
+
+/*Action class applied to index.html*/
+.action{
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+/*About us style*/
+#weights,#cardio,#training{
+    margin: 0 2%;
+}
+
+.round{
+    border-radius: 8px;
+}
+
+.external-link{
+    font-size: 1.35em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Contact style*/
+#contact .contact-email-link{
+    color: #666600;
+    text-decoration: none;
+}
+
+#contact a{
+    color: #666600;
+    text-decoration: none;
+}
+
+.map{
+    border: 2px solid #000;
+    width: 95%;
+    height: 50%;
+}
+
+footer p{
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* #exercises{
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#exercises dt{
+    font-weight: bold;
+}
+
+#exercises dd{
+    padding: 0.5% 1% 2% 0;
+} */

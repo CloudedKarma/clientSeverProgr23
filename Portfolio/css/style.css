@@ -1,5 +1,4 @@
-/* Reset CSS styles */
-body, header, nav, main, footer, h1, div, img{
+body, header, nav, main, footer, h1, div, img, ul{
     margin: 0;
     padding: 0;
     border: 0;
@@ -7,7 +6,7 @@ body, header, nav, main, footer, h1, div, img{
 
 /* Styles For body, img, header, nav, nav ul, nav li a, main, footer p, footer p a */
 body {
-    background-color: #D64045;
+    background-color: #000;
 }
 
 img{
@@ -15,37 +14,56 @@ img{
     display: block;
 }
 
+/* Styles rules for moble viewport */
+
+/* Style rule for header */
 header{
-    width: 25%;
-    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    text-align: center;
+    height: 190px;
+}
+
+header img{
+    margin: 0 auto;
 }
 
 /* Style for navigation area */
 nav{
-    width: 70%;
-    float: right;
-    margin: 5em 3em 0 0;
+    padding: 1%;
+    margin-bottom: 1%;
 }
 
 nav ul{
     list-style-type: none;  /*No bullet on my list items*/
-    margin: 0;
-    text-align: right;
+    text-align: center;
 }
 
 nav li{
-    display: inline-block;
     font-size: 1.5em;
-    font-family: Verdana, Arial, sans-serif;
-    font-weight: bold;
+    font-family: "Francois One", sans-serif;
+    border-top: 1px solid #fff;
+}
+
+nav li:first-child{
+    border-top: none;
 }
 
 nav li a{
     display: block;
     color: #4ECDC4;
-    text-align: center;
     padding: 0.5em 1em;
     text-decoration: none; /*remove underline from link*/
+}
+
+.mobile{
+    display: block;
+}
+
+.tablet-desktop{
+    display: none;
 }
 
 main{
@@ -55,11 +73,22 @@ main{
     font-size: 1.2em;
 }
 
+.tel-link{
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
 /*Projects style*/
 #CPP{
-    width: 29%;
+    width: 100%;
     text-align: left;
+    display: block;
 }
+
 #CPP li{
     text-decoration: none; 
 }
@@ -69,9 +98,15 @@ main{
     font-weight: bold;
     text-decoration: none;
 }
+
+.round{
+    border-radius: 8px;
+}
+
 /* Contact style*/
-#contact{
+#contact .contact-email-link{
     text-align: center;
+    text-decoration: none;
 }
 
 #contact a{
@@ -81,6 +116,8 @@ main{
 
 .map{
     border: 8px solid #000;
+    width: 95%;
+    height: 50%;
 }
 
 /* Footer */
