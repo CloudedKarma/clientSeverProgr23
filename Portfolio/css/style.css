@@ -84,6 +84,25 @@ main{
     border-radius: 5px;
 }
 
+.frame{
+    position: relative;
+    max-width: 450px;
+    margin: 2% auto;
+}
+
+.pic-text{
+    /* the following two rules will allow the figcaption text to overlay at the bottom of the image */
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 /*Projects style*/
 #CPP{
     width: 100%;
