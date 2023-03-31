@@ -44,6 +44,27 @@ webdev23/Portfolio/ContactMe.html
 				width="600" height="450" allowfullscreen="" 
 				loading="lazy" referrerpolicy="no-referrer-when-downgrade" class ="map"></iframe>
 			</div>
+			<h2>Please complete this form in order to get in contact with me.</h2>
+            <form class="form-grid">
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <label for="fName">First Name</label>
+                    <input type = "text" name="fName" id="fName" required>
+                    <label for="lName">Last Name</label>
+                    <input type = "text" name="lName" id="lName" required>
+                    <label for="emial">Email:</label>
+                    <input type = "email" name="emaiil" id="emial" required>
+                    <label for="phone">Phone:</label>
+                    <input type = "tel" name="phone" id="phone" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Is there anything you would like to know about me.</legend>
+                    <label for="questions">Questions?</label>
+                    <textarea id="questions" name="questions" row="5" cols="35"></textarea>
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                    </label>
+                </fieldset>
+            </form>
     </main>
 
 	<footer>

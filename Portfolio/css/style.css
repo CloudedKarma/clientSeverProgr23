@@ -103,15 +103,22 @@ main{
     font-weight: bold;
 }
 
-/*Projects style*/
-#CPP{
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    margin: 0 auto;
     width: 100%;
-    text-align: left;
-    display: block;
 }
 
-#CPP li{
-    text-decoration: none; 
+th, td {
+    border: 1px solid #404040;
+    padding: 1%;
+  }
+
+th {
+background-color: #000;
+color: #fff;
+font-size: 1.15em;
 }
 
 .external-link{
@@ -139,6 +146,31 @@ main{
     border: 8px solid #000;
     width: 95%;
     height: 50%;
+}
+
+.form-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+fieldset,input,select,textarea{
+    margin-bottom: 2%;
+}
+
+label{
+    display: block;
+    padding: top;
+}
+
+form #submit{
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #b3b3b3;
+    font-size: 1em;
+    border-radius: 10px;
 }
 
 /* Footer */
@@ -219,58 +251,56 @@ footer p a{
         }
     }   /* End of tablet media query screen here */
     
-    /* Media query for Desktop Viewport */
-    @media screen and (min-width: 1015px), print{
-        /* Desktop viewport: Style rule for header */
-        header{
-            width: 25%;
-            float: left;
-            padding-bottom: 0;
-            background-color: #000;
-            color: #4ECDC4;
-        }
-    
-        /* Desktop viewport: style rules for nav area */
-        nav{
-            float: right;
-            width: 70%;
-            margin: 4em 1em 0 0;
-        }
-    
-        nav ul{
-            text-align: right;
-        }
-    
-        nav li{
-            border: none;
-        }
-    
-        nav li a{
-            padding: 0.5em 1em;
-        }
-    
-        nav li a:hover{
-            color: #000;
-            background-color: #fff;
-            border-radius: 10px;
-        }
-    
-        /* Desktop viewport: Style rule for main */
-        main{
-            clear: left;
-        }
-    
-        main h1{
-            font-size: 1.8em;
-        }
-    
-        #weights,#cardio,#training{
-            width: 29%;
-            float: left;
-            margin: 0 2%;
-        }
-    
-        #exercises{
-            clear: left;
-        }
+/* Media query for Desktop Viewport */
+@media screen and (min-width: 1015px), print{
+    /* Desktop viewport: Style rule for header */
+    header{
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+        background-color: #000;
+        color: #4ECDC4;
     }
+
+    /* Desktop viewport: style rules for nav area */
+    nav{
+        float: right;
+        width: 70%;
+        margin: 4em 1em 0 0;
+    }
+
+    nav ul{
+        text-align: right;
+    }
+
+    nav li{
+        border: none;
+    }
+
+    nav li a{
+        padding: 0.5em 1em;
+    }
+
+    nav li a:hover{
+        color: #000;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    /* Desktop viewport: Style rule for main */
+    main{
+        clear: left;
+    }
+
+    main h1{
+        font-size: 1.8em;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+        box-shadow: 5px 5px 8px #000;
+        text-shadow: 5px 5px 8px #4ECDC4;
+    }
+}
