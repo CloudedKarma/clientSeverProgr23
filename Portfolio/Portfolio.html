@@ -13,23 +13,36 @@ webdev23/Portfolio/Portfolio.html
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
 	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<script src="scripts/script.js" defer></script>
 </head>
 
 <body>
 	
-	<header>
-		<h1>Kadin Dengler's</h1>
-		<h1>Chocolate Coding Since 1911.</h1>
+	<header id="ffc-logo">            
+		<h2>Kadin Dengler</h2>
 	</header>
-
-    <nav>
-        <ul>
-            <li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/">Home</a></li>
-            <li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Projects.html">Projects </a></li>
+	<nav class="mobile-nav">
+		<div id="menu-links">
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/">Home</a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Projects.html">Projects </a></li>
 			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/AboutMe.html">About Me</a></li>
 			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Services.html">Services</a></li>
-            <li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Portfolio.html">Portfolio</a></li>
-            <li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/ContactMe.html">Contact Me</a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Portfolio.html">Portfolio</a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/ContactMe.html">Contact Me</a></li>
+		</div>
+		<a class="menu-icon" onclick= "hamburger()">
+			<div>&#9776;</div>
+		</a>
+	</nav>
+
+	<nav class="tablet-desktop">
+        <ul>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/">Home</a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Projects.html">Projects </a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/AboutMe.html">About Me</a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Services.html">Services</a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Portfolio.html">Portfolio</a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/ContactMe.html">Contact Me</a></li>
         </ul>
     </nav>
 	<!--In this main i will show some of my qualifications in order to get a job-->
