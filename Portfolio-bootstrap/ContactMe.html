@@ -1,0 +1,102 @@
+<!-- 
+Kadin Dengler
+webdev23/Portfolio/ContactMe.html
+1/23/2023
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kadin's Portfolio</title>
+	<meta charset="utf-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta name="description" content="This is a page to contact me">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="scripts/script.js" defer></script>
+	<script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+	
+	<header id="ffc-logo">            
+		<p>Kadin Dengler</p>
+		<!-- <a href = "index.html"><img src="images/lhsainle.png" alt = "Portfolio logo"/></a> -->
+	</header>
+	<nav class="mobile-nav">
+		<div id="menu-links">
+			<ul>
+				<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/">Home</a></li>
+				<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Projects.html">Projects </a></li>
+				<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/AboutMe.html">About Me</a></li>
+				<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Services.html">Services</a></li>
+				<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Portfolio.html">Portfolio</a></li>
+				<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/ContactMe.html">Contact Me</a></li>
+			</ul>
+		</div>
+		<a class="menu-icon" onclick= "hamburger()">
+			<div>&#9776;</div>
+		</a>
+	</nav>
+
+	<nav class="tablet-desktop">
+        <ul>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/">Home</a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Projects.html">Projects </a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/AboutMe.html">About Me</a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Services.html">Services</a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/Portfolio.html">Portfolio</a></li>
+			<li><a href="https://cloudedkarma.github.io/webdev23/Portfolio/ContactMe.html">Contact Me</a></li>
+        </ul>
+    </nav>
+	<!--This will show some ways to contact me-->
+    <main>
+			<div id = "contact">
+				<h2>Contact me at</h2>
+				<h4 class = "mobile tel-link"><a href="tel:601554555">(601)-554-5555</a></h4>
+				<h4 class = "tablet-desktop tel-num">(601)-554-5555</h4>
+				<h4>Email us: <a href ="mailto:kadin.dengler.32@student.prcc.edu" class="contact-email-link">kadin.dengler.32@student.prcc.edu</a></h4>
+				<h4>Visit us at: 5448 US 49, Hattiesburg, MS 39401</h4>
+				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3409.600365756075!2d-89.2960046!3d31.2871477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889cddbd01be2923%3A0x47b7695b39521ec6!2sPearl%20River%20Community%20College!5e0!3m2!1sen!2sus!4v1676076407748!5m2!1sen!2sus" 
+				width="600" height="450" allowfullscreen="" 
+				loading="lazy" referrerpolicy="no-referrer-when-downgrade" class ="map"></iframe>
+			</div>
+			<h2>Please complete this form in order to get in contact with me.</h2>
+            <form class="form-grid">
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <label for="fName">First Name</label>
+                    <input type = "text" name="fName" id="fName" required>
+                    <label for="lName">Last Name</label>
+                    <input type = "text" name="lName" id="lName" required>
+                    <label for="emial">Email:</label>
+                    <input type = "email" name="emaiil" id="emial" required>
+                    <label for="phone">Phone:</label>
+                    <input type = "tel" name="phone" id="phone" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Is there anything you would like to know about me.</legend>
+                    <label for="questions">Questions?</label>
+                    <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                </fieldset>
+            </form>
+    </main>
+
+	<footer>
+		<p> &copy; Copyright 2023. All Rights Reserved.</p>
+		<p><a href ="mailto:kadin.dengler.32@student.prcc.edu">kadin.dengler.32@student.prcc.edu</a></p>
+			
+		<div class="social">
+			<a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo"></a>
+			<a href="https://www.twitter.com" target="_blank"><img src="images/twitter-logo.png" alt="Twitter logo"></a>
+		</div>
+		
+		<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"> </a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a>
+	</footer>
+	
+</body>
+</html>
